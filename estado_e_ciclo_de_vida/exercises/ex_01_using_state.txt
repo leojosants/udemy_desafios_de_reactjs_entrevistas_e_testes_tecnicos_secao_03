@@ -1,0 +1,7 @@
+Ex 7: Usando estado
+
+● Crie um componente chamado Toggle;
+● Este componente deve ter um botão com um texto;
+● O texto é alterado dinamicamente por meio de um estado;
+● Deve começar com ON e ao clicar mudar para OFF;
+● O contrário também deve ocorrer;

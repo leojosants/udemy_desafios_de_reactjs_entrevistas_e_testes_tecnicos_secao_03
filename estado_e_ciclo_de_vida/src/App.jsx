@@ -1,6 +1,7 @@
 import './App.css'
 import ToggleMultiple from './components/ToggleMultiple';
 import Toggle from './components/Toggle';
+import Clock from './components/Clock';
 
 function App() {
   return (
@@ -10,6 +11,9 @@ function App() {
 
       <h2>2 - Múltiplos Estados</h2>
       <ToggleMultiple />
+
+      <h2>3 - Relógio em tempo real</h2>
+      <Clock />
     </>
   );
 }

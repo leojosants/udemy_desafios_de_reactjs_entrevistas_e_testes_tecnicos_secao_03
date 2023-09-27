@@ -7,16 +7,16 @@ const ToggleMultiple = () => {
     function handleClick() {
         setIsOn(!isOn);
         setCount(count + 1);
-     }
+    }
 
     return (
         <div>
             <button onClick={handleClick}>
                 {isOn ? 'ON' : 'OFF'}
             </button>
-            
+
             <p>Quantidade de cliques: {count}</p>
-            
+
             {/* <button onClick={() => setCount(count + 1)}>Clique aqui!</button> */}
         </div>
     );

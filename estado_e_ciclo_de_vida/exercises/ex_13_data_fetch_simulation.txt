@@ -1,0 +1,6 @@
+Ex 13: Simulação de busca de dados
+
+● Crie um componente que vai simular uma requisição a uma API;
+● Utilize o setTimeout para representar a demora da resposta;
+● Enquanto a resposta não chega, exiba um estado de loading;
+● E depois exiba os dados;

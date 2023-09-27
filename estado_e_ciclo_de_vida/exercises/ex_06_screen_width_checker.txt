@@ -1,0 +1,5 @@
+Ex 12: Verificador de largura da tela
+
+● Crie um novo componente que exibe a largura datela;
+● A cada mudança de largura a dimensão deve ser atualizada de forma instantânea;
+● Utilize useState e useEffect para chegar no resultado final;

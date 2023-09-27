@@ -3,6 +3,7 @@ import ToggleMultiple from './components/ToggleMultiple';
 import Toggle from './components/Toggle';
 import Clock from './components/Clock';
 import TodoList from './components/TodoList';
+import WindowWidthChecker from './components/WindowWidthChecker';
 
 function App() {
   return (
@@ -18,6 +19,9 @@ function App() {
 
       <h2>4 - Lista de tarefas</h2>
       <TodoList />
+
+      <h2>6 - Verificador de largura de tela</h2>
+      <WindowWidthChecker />
     </>
   );
 }
